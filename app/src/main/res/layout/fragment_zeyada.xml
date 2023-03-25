@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ZeyadaFragment">
+
+
+        <TextView
+            android:id="@+id/txt_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/btn_add_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_number"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:text="Add Number"
+            android:textAllCaps="false"
+            android:textSize="13sp" />
+
+
+    </RelativeLayout>
+</layout>
